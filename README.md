@@ -94,7 +94,3 @@ REACT_APP_EMAIL_JS_USER_ID=<<EmailJs user ID>>
 3. Run `cp .env.example .env`
 4. Populate the credentials in `.env`
 5. Run `npm start`
-
-### Sequence
-
-Run Issuer, Holder and Verifier in this sequence in your local machine.
