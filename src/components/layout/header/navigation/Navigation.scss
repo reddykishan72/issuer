@@ -1,0 +1,44 @@
+.navbar {
+  // border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 30px;
+
+  .user-logout {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.navbar-nav {
+  width: 100%;
+
+  .nav-link {
+    color: #555;
+    &.is-active {
+      color: #1890ff;
+      // background-color: #e7e7e7;
+    }
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #555;
+  &.is-active {
+    color: #1890ff;
+    // background-color: #e7e7e7;
+  }
+}
+
+.logo {
+  &-icon {
+    max-width: 80px;
+  }
+
+  &-name {
+    max-width: 300px;
+  }
+}
+
+.bg-orange {
+  // background-color: #525a9b
+}
