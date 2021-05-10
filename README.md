@@ -1,4 +1,4 @@
-# Affinidi Use Case Implementation - Driving License - Issuer
+# Banker's Guarantee
 
 ## Table of contents
 
@@ -15,9 +15,9 @@
 
 ## Introduction
 
-Welcome to Driving License Use Case - Issuer application. In this application, you will experience how does a normal applicant would like to sign up for a verifiable credential and thereafter how a Issuer checks the information and issues a verifiable credential to the applicant.
+Welcome to Issuer application of Banker's Guarantee. In this application, the issuer/bank will check the agreement/details from the concerned parties and issues the Verifiable Credential as a financial security.
 
-You can either run this program in your local machine or try it out here: https://usecases.drivinglicense-issuer.vc-generator.com/
+You can either run this program in your local machine or try it out here: http://issuer.verifiable-credential.tech/
 
 ## Initial Set Up
 
