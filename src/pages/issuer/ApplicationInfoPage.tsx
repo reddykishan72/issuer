@@ -17,7 +17,7 @@ const ApplicationInfoPage: React.FC<IProps & RouteComponentProps> = (props: IPro
 
   const { username, payload, applicationID, docID, approved } = props.location.state.state;
   const { givenName, familyName, holderDid, idClass, issueDate} = payload;
-  const { country, drivingClass, email, issuerOrganization } = JSON.parse(idClass);
+  const { country, drivingClass, email, issuerOrganization, drivingLicenseID } = JSON.parse(idClass);
 
   const history = useHistory();
 
@@ -80,10 +80,11 @@ const ApplicationInfoPage: React.FC<IProps & RouteComponentProps> = (props: IPro
         <h3><strong>Application ID:</strong> {applicationID}</h3>
         <p><strong>Given Name:</strong> {givenName}</p>
         <p><strong>Family Name:</strong> {familyName}</p>
-        <p><strong>Date of Issuance:</strong> {issueDate}</p>
+        <p><strong>Currency Type:</strong> {issueDate}</p>
+        <p><strong>Amount:</strong> {drivingLicenseID}</p>
         <p><strong>Issuer Organisation:</strong> {issuerOrganization}</p>
         <p><strong>Country of Issuance:</strong> {country}</p>
-        <p><strong>Driving Class:</strong> {drivingClass}</p>
+        {/* <p><strong>Driving Class:</strong> {drivingClass}</p> */}
         {/* <Button style={{display: 'block', margin: '10px 0 0 0'}}>View Proof of Document</Button> */}
 
         { !approved ? (

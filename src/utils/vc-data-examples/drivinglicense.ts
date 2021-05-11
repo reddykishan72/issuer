@@ -16,7 +16,7 @@ export const drivingLicenseVCData: VCBuildUnsignedInput = {
       '@type': ['Role', 'IDDocumentRole'],
       "hasIDDocument": {
         '@type': 'IDDocument',
-        "issuer": 'Automobile Association of Singapore',
+        "issuer": 'ABC Bank',
         "documentType": 'driving_license',
         "issueDate": '2019...',
         "classificationMethod": 'automatic',
@@ -175,7 +175,7 @@ export const unsignedDrivingLicenseVC: UnsignedW3cCredential = {
         ],
         "hasIDDocument": {
           "@type": "IDDocument",
-          "issuer": "Automobile Association of Singapore",
+          "issuer": "ABC Bank",
           "documentType": "driving_license",
           "issueDate": "",
           "classificationMethod": "automatic",

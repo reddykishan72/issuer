@@ -31,7 +31,7 @@ interface IBaseVCData {
     country: 'Singapore',
     drivingClass: '1',
     email: '',
-    issuerOrganization: 'Automobile Association of Singapore'
+    issuerOrganization: 'ABC Bank'
   }
 
 interface IPayload extends IBaseVCData{
